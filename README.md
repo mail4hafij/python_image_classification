@@ -1,1 +1,1 @@
-# python_image_recognition_tensorflow
+# Python image recognition using tensorflow
