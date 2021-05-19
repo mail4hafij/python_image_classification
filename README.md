@@ -4,6 +4,7 @@ The idea is to use pretrained deep learning algorithms such as mobilenet to pred
 ## Prerequisites
 
 ``` pip install tensorflow ```
+
 ``` pip install numpy ```
 
 or just run
