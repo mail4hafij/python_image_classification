@@ -1,4 +1,4 @@
-# Python image recognition using tensorflow
+# Python image recognition using MobileNetV2
 The idea is to use pretrained deep learning algorithms such as mobilenet to predict objects in a image. 
 
 ## Prerequisites
