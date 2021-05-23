@@ -10,7 +10,6 @@ final_image = np.expand_dims(img_to_array, axis=0)
 final_image = tf.keras.applications.mobilenet.preprocess_input(final_image)
 
 # Loading the deep learning model
-# deep_learning_alg = tf.keras.applications.mobilenet.MobileNet()
 deep_learning_alg = tf.keras.applications.mobilenet_v2.MobileNetV2()
 predictions = deep_learning_alg.predict(final_image)
 
