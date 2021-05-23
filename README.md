@@ -15,7 +15,7 @@ or just run
 
 ``` 
 pip install -r requirements.txt 
-python main.py 
+python round_operation_neural_network.py 
 ```
 
 You can use Jupyter notebook to run the code. In that case, download anaconda https://www.anaconda.com/products/individual and install the above libraries and launch Jupyter notebook.
