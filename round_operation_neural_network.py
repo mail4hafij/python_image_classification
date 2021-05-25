@@ -6,15 +6,14 @@ from keras.layers import Dense
 Create training data and labels
 """
 data = np.random.random(10000)
-# observation, number of input parameter
-data.shape = 10000, 1
+data.shape = 10000, 1  # observation, number of input parameter
 labels = np.array(data >= .5, dtype=int)
 
 """
 Creating a model with sequential
-input layer 1
-hidden layer 8 densely connected neurons
-output layer 2 (0 or 1)
+input layer  - 1 neuron
+hidden layer - 8 densely connected neurons
+output layer - 2 (0 or 1) neurons
 """
 model = Sequential(
     [
@@ -35,14 +34,13 @@ model.compile(
 
 """
 Train the model
-Keep some data for validation
 """
 model.fit(
     x=data,
     y=labels,
     epochs=10,
     verbose=2,  # output
-    validation_split=.1
+    validation_split=.1  # Keep some data for validation
 )
 
 """

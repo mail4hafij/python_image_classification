@@ -1,7 +1,6 @@
 import tensorflow as tf
 import numpy as np
 
-
 filename = 'images/cat.jpg'
 img = tf.keras.preprocessing.image.load_img(filename, target_size=(224, 224))
 img_to_array = tf.keras.preprocessing.image.img_to_array(img)
@@ -17,5 +16,3 @@ predictions = deep_learning_alg.predict(final_image)
 for decoded_prediction in tf.keras.applications.imagenet_utils.decode_predictions(predictions):
     for name, desc, score in decoded_prediction:
         print('- {} ({:.2f}%)'.format(desc, 100 * score))
-
-
