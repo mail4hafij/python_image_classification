@@ -1,10 +1,10 @@
-# Python image classification using MobileNetV2
-Comming soon!!! There are four ideas 
+# Python image classification
+Comming soon!!! There are three simple ideas 
 
-1. The first idea is to build a simple neural network to recognize floating numbers less than .5 and label them as 0, and 1 otherwise.
-2. The second idea is to use pretrained deep learning algorithms such as mobilenetV2 and modify the neural network to train more data. 
-3. The third idea is to demonstrate object classifcation on a image.
-4. The third idea is to demonstrate object classification on a live video feed.
+1. The first idea is to build a simple neural network to recognize floating numbers less than .5 and label them as 0, and 1 otherwise. The input range is from 0 to 1.
+2. The second idea is to use pretrained deep learning algorithms such as mobilenetV2 and modify the neural network to train more data to predict some specific outcome. 
+3. The third idea is to demonstrate object detection on a image and a video.
+
 
 ## Prerequisites
 
