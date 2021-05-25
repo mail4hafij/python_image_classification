@@ -8,16 +8,6 @@ Comming soon!!! There are three simple ideas
 
 ## Prerequisites
 
-``` pip install tensorflow ```
-
-``` pip install numpy ```
-
-``` pip install pillow ```
-
-``` python main.py ```
-
-or just run
-
 ``` 
 pip install -r requirements.txt 
 python round_operation_neural_network.py 
