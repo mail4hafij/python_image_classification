@@ -3,7 +3,9 @@ Comming soon!!! There are three simple ideas
 
 <img src="images/output.jpg" />
 1. The first idea is to build a simple neural network to recognize floating numbers less than .5 and label them as 0, and 1 otherwise. The input range is from 0 to 1.
+
 2. The second idea is to use pretrained deep learning algorithms such as mobilenetV2 and modify the neural network to train more data to predict some specific outcome. 
+
 3. The third idea is to demonstrate object detection from an image and a video.
 
 Tensorflow is a popular deep learning framework by Google. Keras is a wrapper around the Tensorflow (and other frameworks) to make it easy for programmers to work with deep learning framworks such as Tensoflow.
