@@ -32,7 +32,7 @@ Machine Learning (ML): It is a subset of AI which helps us to explore data. Ther
 
 Deep Learning (DL): It is a subset of ML. The idea is to mimic machine to learn like human. It uses Multi Neural Network architecture. There are mainly three  techniques - 
    1. ANN (Artificial Neural Network) - Numbers based data is usually solved by ANN.
-   2. CNN (Convulsion Neural network) - Images based data is usually solved by CNN. There is also a techinque called Transfer Learning, where we use a already trained deep learning network and train more data to reach a specific outcome on top of what is already learned. For example, if we have a trained model that can detect cat then we can use the trained model and train the model with more data to be able to recognize whether the cat is male or female.
+   2. CNN (Convulsion Neural network) - Images based data is usually solved by CNN. There is also a techinque called Transfer Learning, where we use a already trained deep learning network and train more data to reach a specific outcome on top of what is already learned. For example, if we have a trained model that can detect Cats then we can use the trained model and train the model with more data to be able to recognize whether a cat is male or female.
    3. RNN (Recurrent Neural Network) - Time series based data is usually solved with RNN.
 
 Data Science (DS): Data Science inludes data gathering (data acquisition), data preparation (cleaning), data exploration and then data modeling.
