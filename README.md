@@ -1,7 +1,8 @@
 # Python image classification
-Comming soon!!! There are three simple ideas 
+Comming soon!!! There are three simple ideas - 
 
 <img src="images/output.jpg" />
+
 1. The first idea is to build a simple neural network to recognize floating numbers less than .5 and label them as 0, and 1 otherwise. The input range is from 0 to 1.
 
 2. The second idea is to use pretrained deep learning algorithms such as mobilenetV2 and modify the neural network to train more data to predict some specific outcome. 
