@@ -1,13 +1,11 @@
 # Python image classification
-Comming soon!!! There are three simple ideas - 
 
 <img src="images/output.jpg" />
 
-1. The first idea is to build a simple neural network to recognize floating numbers less than .5 and label them as 0, and 1 otherwise. The input range is from 0 to 1.
-
-2. The second idea is to use pretrained deep learning algorithms such as mobilenetV2 and modify the neural network to train more data to predict some specific outcome. 
-
-3. The third idea is to demonstrate object detection from an image and a video.
+1. **round_operation_neural_network.py** - The idea is to build a simple neural network to recognize floating numbers less than .5 and label them as 0, and 1 otherwise. The input range is from 0 to 1.
+2. **image_classification_mobilenet.py** - Classify an object with prediction using MobileNet.
+3. **object_detection_image.py** - Detect objects from an image.
+4. **object_detection_video.py** - Detect objects from video.
 
 ## Packages 
 * Tensorflow is a popular deep learning framework by Google. Keras is a wrapper around the Tensorflow (and other frameworks) to make it easy for programmers to work with deep learning framworks such as Tensorflow. We are using Deep learning algorithm MobileNet in the Tensorflow framework.
