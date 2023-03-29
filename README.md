@@ -9,9 +9,9 @@ Comming soon!!! There are three simple ideas -
 
 3. The third idea is to demonstrate object detection from an image and a video.
 
-Tensorflow is a popular deep learning framework by Google. Keras is a wrapper around the Tensorflow (and other frameworks) to make it easy for programmers to work with deep learning framworks such as Tensoflow.
-
-OpenCV is an open source package/library, which is aimed at real time computer vision.
+## Packages 
+* Tensorflow is a popular deep learning framework by Google. Keras is a wrapper around the Tensorflow (and other frameworks) to make it easy for programmers to work with deep learning framworks such as Tensorflow. We are using Deep learning algorithm MobileNet in the Tensorflow framework.
+* OpenCV is an open source package/library, which is aimed at real time computer vision.
 
 ## Prerequisites
 
