@@ -18,28 +18,6 @@ with open(file_name, 'rt') as fpt:
     classLabels = fpt.read().rstrip('\n').split('\n')
 
 """
-Object detection from image
-"""
-img = cv2.imread('images/car.jpg')  # bgr
-classIndex, confidence, bbox = model.detect(img, confThreshold=0.5)
-
-font_scale = 3
-font = cv2.FONT_HERSHEY_PLAIN
-for index, conf, boxes in zip(classIndex.flatten(), confidence.flatten(), bbox):
-    cv2.rectangle(img, boxes, (0, 0, 255), 2)
-    cv2.putText(
-        img,
-        classLabels[index - 1],
-        (boxes[0] + 10, boxes[1] + 40),
-        font,
-        fontScale=font_scale,
-        color=(0, 255, 0),
-        thickness=3)
-
-plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-plt.savefig('images/output.jpg')
-
-"""
 Object detection from video/webcam
 """
 vid = cv2.VideoCapture("images/uppsala.mp4")  # in case of webcam, vid = cv2.VideoCapture(1)
